@@ -1,0 +1,122 @@
+# Java-specific ignores
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+*.launch
+local.properties
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.DS_Store
+
+# IDE - VS Code
+.vscode/
+*.code-workspace
+
+# IDE - NetBeans
+nbproject/
+.nb-gradle/
+
+# IDE - Sublime
+*.sublime-project
+*.sublime-workspace
+
+# IDE - Atom
+.atom/
+
+# Logs
+*.log
+*.log.*
+logs/
+
+# System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.AppleDouble
+.LSOverride
+.TemporaryItems
+
+# Runtime
+*.out
+*.dat
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# OS-specific
+Thumbs.db
+.directory
+.cache
+.parcel-cache
+
+# Node (if any)
+node_modules/
+npm-debug.log
+
+# Python (if any)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment Variables
+.env
+.env.local
+
+# Compiled Output
+*.o
+*.a
+*.so
+
+# Database
+*.db
+*.sqlite
+
+# Temporary files
+temp/
+tmp/
+.tmp/
+
+# IDE generated files
+.factorypath
+.sts4-cache/
+
+# Tomcat
+work/
+catalina.base/
