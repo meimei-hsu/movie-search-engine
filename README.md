@@ -40,7 +40,7 @@ Google's search results are not specialized for movie enthusiasts. This project 
 ## Project Structure
 
 ```
-DS_Final_Project/
+movie-search-engine/
 ├── src/                          # Java source files
 │   ├── Main.java                 # Servlet dispatcher & main logic
 │   ├── GoogleQuery.java          # Google API interaction & HTML parsing
@@ -85,8 +85,8 @@ DS_Final_Project/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/meimei-hsu/DS_Final_Project.git
-cd DS_Final_Project
+git clone https://github.com/meimei-hsu/movie-search-engine.git
+cd movie-search-engine
 ```
 
 ### 2. Set Up Java Environment
@@ -130,7 +130,7 @@ make help
 javac -d build/classes -cp WebContent/WEB-INF/lib/* src/*.java
 
 # Create WAR file (optional)
-jar cvf DS_Final_Project.war -C WebContent .
+jar cvf movie-search-engine.war -C WebContent .
 ```
 
 ## Running the Application
@@ -161,10 +161,10 @@ chmod +x run.sh
 $CATALINA_HOME/bin/startup.sh
 
 # 2. Copy WAR file to Tomcat webapps
-cp DS_Final_Project.war $CATALINA_HOME/webapps/
+cp movie-search-engine.war $CATALINA_HOME/webapps/
 
 # 3. Access the application
-# Open browser to http://localhost:8080/DS_Final_Project/Search.jsp
+# Open browser to http://localhost:8080/movie-search-engine/Search.jsp
 ```
 
 ## Usage
@@ -172,7 +172,7 @@ cp DS_Final_Project.war $CATALINA_HOME/webapps/
 ### Accessing the Application
 
 1. Open your web browser
-2. Navigate to `http://localhost:8080/DS_Final_Project/`
+2. Navigate to `http://localhost:8080/movie-search-engine/`
 3. You should see the search page (`Search.jsp`)
 
 ### Performing a Search
